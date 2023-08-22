@@ -20,6 +20,11 @@ const [categoria, setCategoria] = useState('')
         }, 500);
     }
 
+    const handleSubmit = e =>{
+        e.preventDefault();
+        
+    }
+
   return (
     <div className="modal">
         <div className="cerrar-modal">
